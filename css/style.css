@@ -1,0 +1,23 @@
+/* Common CSS Start */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+  ul,
+  li {
+    list-style-type: none;
+  }
+  span {
+    display: inline-block;
+  }  
+  /* Common CSS End */
