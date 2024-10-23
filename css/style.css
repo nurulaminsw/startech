@@ -43,13 +43,23 @@ header .top {
   gap: 40px;
 }
 
+.top .logo a {
+  width: 117px;
+  height: 52px;
+}
+
 .nav_search input {
-  width: 500px;
+  width: 550px;
   font-size: 15px;
-  padding: 10px 15px;
+  text-transform: capitalize;
+  padding: 8px 15px;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
+}
+
+.nav_search input::placeholder {
+  color: #757575;
 }
 
 .nav_search {
@@ -58,7 +68,7 @@ header .top {
 
 .nav_search .search {
   position: absolute;
-  top: 15px;
+  top: 12px;
   right: 15px;
 }
 
@@ -66,43 +76,46 @@ header .top {
   display: flex;
   gap: 24px;
   align-items: center;
-  justify-content: center;
 }
 
 .ht_item ul {
   display: flex;
   gap: 16px;
   align-items: center;
+  margin-top: -10px;
   padding-left: 0;
   margin-bottom: 0px;
   line-height: 0;
 }
 
 .ht_item ul li i {
+  margin-top: 10px;
   color: #ef4a23;
-  font-size: 24px;
+  font-size: 18px;
 }
+
 .blink {
   animation: blinker 2s linear infinite;
 }
+
 @keyframes blinker {
   0% {
-      opacity: 1.0;
+    opacity: 1.0;
   }
 
   50% {
-      opacity: 0.0;
+    opacity: 0.0;
   }
 
   100% {
-      opacity: 1.0;
-      color: white
+    opacity: 1.0;
+    color: white
   }
 }
+
 .ht_item ul li h4 {
   font-size: 15px;
   color: #FFF;
-  line-height: 20px;
   text-transform: capitalize;
 }
 
@@ -121,7 +134,7 @@ header .top {
   display: inline-block;
   font-weight: 600;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border-radius: 4px;
   text-align: center;
 }
@@ -142,7 +155,172 @@ header .top {
 
 /* =======Header part end===== */
 /* =======Navbar part start===== */
+nav {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+}
+
+.navbar-nav {
+  margin-left: -10px;
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 7px;
+  display: block;
+  /* line-height: 50px; */
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 700;
+  color: #222;
+}
+
 /* =======Navbar part end===== */
 /* ---------------NAVBAR CSS END--------------- */
 /* ---------------BANNER CSS STARTS--------------- */
+#banner {
+  padding: 30px 0;
+  background: #f2f4f8;
+}
+
+/* ---banner slider--- */
+.banner-slider {
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, .03);
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #898e94;
+}
+
+.carousel-dark .carousel-indicators .active {
+  background-color: #ef4a23;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 8px;
+}
+
+.carousel-indicators {
+  gap: 5px;
+}
+
+/* ----banner form---- */
+.compare_product {
+  background: #ffe8a1;
+  margin-bottom: 30px;
+  padding: 25px 30px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, .03);
+}
+
+.compare_product h4 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.compare_product p {
+  color: #000;
+  text-align: center;
+  margin: 0 0 14px;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: .5;
+}
+
+.product_search {
+  position: relative;
+}
+
+.product_search input {
+  font-size: 14px;
+  font-weight: 500;
+  height: 42px;
+  padding: 5px 15px;
+  background: #fff;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 30px 5px 15px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, .05);
+}
+
+.product_search i {
+  position: absolute;
+  top: 14px;
+  right: 8px;
+  opacity: 0.5;
+}
+
+.compare_product form button {
+  width: 100%;
+  background: transparent;
+  color: #3749bb;
+  display: inline-block;
+  border: 2px solid #3749bb;
+  height: 42px;
+  line-height: 38px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  text-align: center;
+  transition: all .3s linear;
+}
+
+.compare_product form button:hover {
+  background: #3749bb;
+  color: #FFF;
+}
+
+.ad_img {
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, .03);
+  width: 310px;
+  height: 193px;
+}
+
+/* ----banner link wrap---- */
+.link-wrap{
+  margin-top:50px;
+  margin-bottom: 30px;
+}
+.banner_link_item{
+  background: #FFF;
+  padding: 15px 20px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+.banner_link_item .icon{
+  background: #ef4a23;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  color: #FFF;
+}
+.banner_link_item .finder h4{
+  color: #000;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.banner_link_item .finder p{
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 0;
+  line-height: 26px;
+}
+/* ---sliding text--- */
+.sliding-text{
+  background: #FFF;
+  font-size: 14px;
+  padding: 12px 20px 8px;
+  border-radius: 33px;
+  color: #444;
+  min-height: 40px;
+}
 /* ---------------BANNER CSS END--------------- */
