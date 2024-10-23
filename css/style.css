@@ -1,23 +1,145 @@
 /* Common CSS Start */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+span {
+  display: inline-block;
+}
+
+/* Common CSS End */
+/* ---------------NAVBAR CSS STARTS--------------- */
+/* =======Header part start===== */
+header {
+  background: #081621;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+header .top {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav_search input {
+  width: 500px;
+  font-size: 15px;
+  padding: 10px 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.nav_search {
+  position: relative;
+}
+
+.nav_search .search {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.ht_wrap {
+  display: flex;
+  gap: 24px;
+}
+
+.ht_item ul {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-left: 0;
+  margin-bottom: 0px;
+}
+
+.ht_item ul li i {
+  color: #ef4a23;
+  font-size: 24px;
+}
+.blink {
+  animation: blinker 2s linear infinite;
+}
+@keyframes blinker {
+  0% {
+      opacity: 1.0;
   }
-  body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
+
+  50% {
+      opacity: 0.0;
   }
-  a {
-    display: inline-block;
-    text-decoration: none;
-    color: inherit;
+
+  100% {
+      opacity: 1.0;
+      color: white
   }
-  ul,
-  li {
-    list-style-type: none;
+}
+.ht_item ul li h4 {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #FFF;
+  text-transform: capitalize;
+}
+
+.ht_item ul li p {
+  font-size: 11px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ht_item .btn {
+  margin-top: 10px;
+  background: linear-gradient(45deg, #00237e, #3749bb, #0bc1e9, #3749bb, #00237e);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
   }
-  span {
-    display: inline-block;
-  }  
-  /* Common CSS End */
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/* =======Header part end===== */
+/* =======Navbar part start===== */
+/* =======Navbar part end===== */
+/* ---------------NAVBAR CSS END--------------- */
+/* ---------------BANNER CSS STARTS--------------- */
+/* ---------------BANNER CSS END--------------- */
