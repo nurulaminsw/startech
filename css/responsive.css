@@ -1,7 +1,50 @@
 /* Small devices (phones, 576px and up) */
 @media (max-width: 575.999px) {
+/* ---header responsive----- */
+header .top {
+    padding: 5px 0;
+    justify-content: center;
+}
+.top .logo a {
+    width: 100px;
+    height: 40px;
+}
+.nav_search input {
+    display: none;
+}
+.nav_search .search {
+    color: #FFF;
+    top: -10px;
+    right: -80px;
+}
+.ht_wrap {
+    display: none;
+    gap: 24px;
+    align-items: center;
+}
+.navbar-toggler {
+    margin-top: -50px;
+    z-index: 999;
+    color: #FFF;
 
-
+}
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+.navbar {
+    --bs-navbar-toggler-padding-x: -0.25rem;
+    --bs-navbar-toggler-border-color: none;
+    --bs-navbar-toggler-icon-bg: url("../images/white.png");
+}
+.link-wrap {
+    gap: 20px;
+}
+.compare_product {
+    margin-top: 20px;
+}
+.ad_img {
+    margin-left: 10px;
+}
 }
 
 /* (sm) Small devices (landscape phones, 576px and up) */
