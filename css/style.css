@@ -102,6 +102,7 @@ header .top {
   font-size: 18px;
 }
 
+
 .blink {
   animation: blinker 2s linear infinite;
 }
@@ -348,7 +349,9 @@ nav {
   color: #01132d;
   line-height: 26px;
 }
-
+.long-content p a {
+  color: #ef4a23;
+}
 /* content-area end here  */
 
 /* Footer part start */
