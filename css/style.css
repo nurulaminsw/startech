@@ -251,7 +251,7 @@ nav {
   padding: 15px;
 }
 
-#category .cat-item p{
+#category .cat-item p {
   font-size: 15px;
 }
 
@@ -268,7 +268,6 @@ nav {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-
 }
 
 #category .storepart .info {
@@ -285,40 +284,36 @@ nav {
   font-size: 45px;
 }
 
-#category .store-link{
+#category .store-link {
   display: flex;
   padding-right: px;
   padding-left: 15px;
   padding-right: 45px;
-  
 }
 
-
-#category .store-button{
-    background: #ef9919;
-    padding: 17px 50px;
-    border-radius: 50px;
-    font-size: 15px;
-    line-height: 20px;
-    height: auto;
-    border: none;
-    width: fit-content;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    transition: all  0.5s ease;
-    -webkit-transition: all  0.5s ease;
-    -moz-transition: all  0.5s ease;
-    -ms-transition: all  0.5s ease;
-    -o-transition: all  0.5s ease;
+#category .store-button {
+  background: #ef9919;
+  padding: 17px 50px;
+  border-radius: 50px;
+  font-size: 15px;
+  line-height: 20px;
+  height: auto;
+  border: none;
+  width: fit-content;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
-#category .store-button:hover{
-  box-shadow: 0 60px rgba(0,0,0,.2) inset;
-
+#category .store-button:hover {
+  box-shadow: 0 60px rgba(0, 0, 0, 0.2) inset;
 }
-
 
 /* <!-- Featured Category end --> */
 
@@ -635,3 +630,98 @@ footer .footerTitle {
   min-height: 40px;
 }
 /* ---------------BANNER CSS END--------------- */
+/* cart start */
+
+.f-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+  background: #081621;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 59px;
+  height: 59px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), -5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.f-btn:hover {
+  background: #3749bb;
+}
+.f-btn i {
+  margin: 13px 0 5px;
+  height: 20px;
+  width: 24px;
+  font-size: 20px;
+}
+.f-btn .label {
+  opacity: 0.8;
+}
+.f-btn span.counter {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background: #ef4a23;
+  line-height: 20px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* cart end */
+/* compare start */
+
+.c-btn {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  z-index: 99999;
+  background: #081621;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 59px;
+  height: 59px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), -5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.c-btn:hover {
+  background: #3749bb;
+}
+.c-btn i {
+  margin: 13px 0 5px;
+  height: 20px;
+  width: 24px;
+  font-size: 20px;
+}
+.c-btn .label {
+  opacity: 0.8;
+}
+.c-btn span.counter {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background: #ef4a23;
+  line-height: 20px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+/* compare start */
