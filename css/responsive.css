@@ -49,6 +49,12 @@
         padding-bottom: 30px;
     }
 
+    .f-btn{
+        display: none;
+    }
+    .c-btn{
+        display: none;
+    }
 
 }
 
@@ -95,6 +101,12 @@
         padding-right: 0px;
         padding-bottom: 30px;
     }
+    .f-btn{
+        display: none;
+    }
+    .c-btn{
+        display: none;
+    }
 
 }
 
@@ -127,6 +139,13 @@
         padding: 13px 13px;
         padding-bottom: 5px;
     }
+    .f-btn{
+        display: none;
+    }
+    .c-btn{
+        display: none;
+    }
+
 
 }
 
@@ -136,6 +155,13 @@
         
         padding: 1px 32px;
     }
+    .f-btn{
+        display: none;
+    }
+    .c-btn{
+        display: none;
+    }
+
 }
 
 
