@@ -1,11 +1,100 @@
 /* Small devices (phones, 576px and up) */
 @media (max-width: 575.999px) {
 
+    #category .cat-main {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -30px;
+        margin-left: 15px;
+        align-self: center;
+    }
+
+    #category .cat-item .cat-item-inner {
+        
+        padding: 1px 1px;
+    }
+
+    #category .cat-item .cat-icon {
+        display: inline-block;
+        padding: 15px;
+        font-size: 2px;
+    }
+    #category .cat-item p{
+        line-height: 12px;
+        min-height: 25px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 1px;
+        font-size: 10px;
+    }
+
+    #category .storepart .info{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 5px;
+        gap: 5px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    #category .store-inside .icn{
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    #category .store-button{
+        margin: 0 auto;
+    }
+    #category .store-link{
+        padding-left: 0;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+
 
 }
 
 /* (sm) Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.999px) {
+
+    #category .cat-main {
+        margin: 0 -100px;
+        margin-left: -57px;
+        align-self: center;
+    }
+
+    #category .cat-item .cat-item-inner {
+        
+        padding: 1px 35px;
+    }
+    #category .cat-item p{
+        line-height: 12px;
+        min-height: 25px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+
+    #category .storepart .info{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 5px;
+        gap: 5px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    #category .store-inside .icn{
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    #category .store-button{
+        margin: 0 auto;
+    }
+    #category .store-link{
+        padding-left: 0;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
 
 }
 
@@ -13,12 +102,40 @@
 /* (md) Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.999px) {
 
+    
+    #category .cat-main {
+        margin: 0 -5px;
+        margin-left: 0px;
+        align-self: center;
+    }
+
+    #category .cat-item .cat-item-inner {
+        
+        padding: 1px 45px;
+    }
+    #category .cat-item p{
+        line-height: 12px;
+        min-height: 25px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+
+
+    #category .cat-item .cat-item-inner {
+        padding: 13px 13px;
+        padding-bottom: 5px;
+    }
 
 }
 
 /* (lg) Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.999px) {
-
+    #category .cat-item .cat-item-inner {
+        
+        padding: 1px 32px;
+    }
 }
 
 
