@@ -285,6 +285,7 @@ nav {
   margin-bottom: 30px;
 }
 .banner_link_item{
+  margin: 0 5px;
   background: #FFF;
   padding: 15px 20px;
   display: flex;
