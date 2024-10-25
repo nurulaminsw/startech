@@ -1,34 +1,112 @@
 /* Small devices (phones, 576px and up) */
 @media (max-width: 575.999px) {
 
+    .product{
+        max-width: 19%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        display: flex;
+        
+        }
+        .product:hover{
+          box-shadow: 0 2px 5px rgba(0,0,0,.1);
+           
+        }
+        
 
 }
 
 /* (sm) Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.999px) {
 
+    .product{
+        max-width: 19%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        display: flex;
+        
+        }
+        .product:hover{
+          box-shadow: 0 2px 5px rgba(0,0,0,.1);
+           
+        }
+        
 }
 
 
 /* (md) Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.999px) {
 
+    .product{
+        max-width: 19%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        display: flex;
+        
+        }
+        .product:hover{
+          box-shadow: 0 2px 5px rgba(0,0,0,.1);
+           
+        }
+        
 
 }
 
 /* (lg) Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.999px) {
 
+    .product{
+        max-width: 19%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        display: flex;
+        
+        }
+        .product:hover{
+          box-shadow: 0 2px 5px rgba(0,0,0,.1);
+           
+        }
+        
 }
 
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.999px) {
 
+    .product{
+        max-width: 19%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        display: flex;
+        
+        }
+        .product:hover{
+          box-shadow: 0 2px 5px rgba(0,0,0,.1);
+           
+        }
+        
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 
+    .product{
+        max-width: 19%;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        display: flex;
+        
+        }
+        .product:hover{
+          box-shadow: 0 2px 5px rgba(0,0,0,.1);
+           
+        }
+        
 
 }
