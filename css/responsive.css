@@ -36,6 +36,7 @@ header .top {
     --bs-navbar-toggler-border-color: none;
     --bs-navbar-toggler-icon-bg: url("../images/white.png");
 }
+/*----- banner responsive---- */
 .link-wrap {
     gap: 20px;
 }
@@ -76,6 +77,28 @@ header .top {
 
 /* (sm) Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.999px) {
+    /* ---header responsive----- */
+header .top {
+    padding: 5px 0;
+    justify-content: center;
+}
+.top .logo a {
+    width: 100px;
+    height: 40px;
+}
+.nav_search input {
+    display: none;
+}
+.nav_search .search {
+    color: #FFF;
+    top: -10px;
+    right: -80px;
+}
+.ht_wrap {
+    display: none;
+    gap: 24px;
+    align-items: center;
+}
 /* navbar responsive start */
 
 .navbar-toggler {
